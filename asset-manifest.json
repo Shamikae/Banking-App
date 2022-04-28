@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Shamikae/Banking-App/static/css/main.e691e520.css",
-    "main.js": "/Shamikae/Banking-App/static/js/main.10112ce9.js",
-    "static/media/bluesky.jpeg": "/Shamikae/Banking-App/static/media/bluesky.4433c04c1a9ce71f844a.jpeg",
-    "index.html": "/Shamikae/Banking-App/index.html",
-    "main.e691e520.css.map": "/Shamikae/Banking-App/static/css/main.e691e520.css.map",
-    "main.10112ce9.js.map": "/Shamikae/Banking-App/static/js/main.10112ce9.js.map"
+    "main.css": "/Shamikae/BankingApp/static/css/main.0f048c3a.css",
+    "main.js": "/Shamikae/BankingApp/static/js/main.10112ce9.js",
+    "static/media/bluesky.jpeg": "/Shamikae/BankingApp/static/media/bluesky.4433c04c1a9ce71f844a.jpeg",
+    "index.html": "/Shamikae/BankingApp/index.html",
+    "main.0f048c3a.css.map": "/Shamikae/BankingApp/static/css/main.0f048c3a.css.map",
+    "main.10112ce9.js.map": "/Shamikae/BankingApp/static/js/main.10112ce9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e691e520.css",
+    "static/css/main.0f048c3a.css",
     "static/js/main.10112ce9.js"
   ]
 }
