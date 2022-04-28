@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Shamikae/Banking-App/static/css/main.e691e520.css",
+    "main.js": "/Shamikae/Banking-App/static/js/main.10112ce9.js",
+    "static/media/bluesky.jpeg": "/Shamikae/Banking-App/static/media/bluesky.4433c04c1a9ce71f844a.jpeg",
+    "index.html": "/Shamikae/Banking-App/index.html",
+    "main.e691e520.css.map": "/Shamikae/Banking-App/static/css/main.e691e520.css.map",
+    "main.10112ce9.js.map": "/Shamikae/Banking-App/static/js/main.10112ce9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e691e520.css",
+    "static/js/main.10112ce9.js"
+  ]
+}
