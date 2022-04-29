@@ -8,13 +8,16 @@ import 'react-datepicker/dist/react-datepicker.css';
 import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
 import './css/main.scss';
 import { maintainSession } from './utils/common';
+import{ BrowserRouter } from 'react-router-dom';
 
 maintainSession();
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
-  <Provider store={store}>
-    <AppRouter />
-  </Provider>,
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Provider store={store}>
+      <AppRouter />
+    </Provider>
+  </BrowserRouter>,
   rootElement
 );
