@@ -14,10 +14,12 @@ maintainSession();
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Provider store={store}>
-      <AppRouter />
-    </Provider>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
+      <Provider store={store}>
+        <AppRouter />
+      </Provider>
+    </BrowserRouter>
+  </React.StrictMode>,
   rootElement
 );

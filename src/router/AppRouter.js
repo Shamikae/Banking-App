@@ -19,6 +19,7 @@ const AppRouter = ({ auth }) => {
         {!_.isEmpty(auth.token) && <Header />}
         <div className="container">
           <Switch>
+            <Route exact path='' component={Login} />
             <Route path="/" component={Login} exact={true} />
             <Route path="/register" component={Register} />
             <Route path="/account" component={Account} />
